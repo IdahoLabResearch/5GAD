@@ -6,6 +6,13 @@ This dataset contains two types of intercepted network packets: "normal" network
 
 ![5GNetworkDiagram.png](5GNetworkDiagram.png)
 
+**NOTE: The normal sets do not contain explicit breakdowns for each interface to reduce the download size. The individual interfaces can be separated from the allcap file in Wireshark as follows:**
+1. Add a new column to Wireshark via Edit->Preferences->Appearance->Columns and then click on '+' to add a new column.
+2. Set the column 'type' as 'Custom' and the field as 'frame.interface_name'.
+3. To select only a particular interface, return to the main Capture page.
+4. Apply the filter 'frame.interface_name==' followed by the desired interface. 
+5. Export the separated packets via File->Export Specified Packets
+
 # Citation and Contact
 If you use our dataset, please cite it:
 ```
@@ -27,15 +34,7 @@ If you find our paper useful, please cite it:
   year={2022}
 }
 ```
-
-
-**NOTE: The normal sets do not contain explicit breakdowns for each interface to reduce the download size. The individual interfaces can be separated from the allcap file in Wireshark as follows:**
-1. Add a new column to Wireshark via Edit->Preferences->Appearance->Columns and then click on '+' to add a new column.
-2. Set the column 'type' as 'Custom' and the field as 'frame.interface_name'.
-3. To select only a particular interface, return to the main Capture page.
-4. Apply the filter 'frame.interface_name==' followed by the desired interface. 
-5. Export the separated packets via File->Export Specified Packets
-
+For any questions or concerns, please contact `matthew.anderson2@inl.gov`
 ***
 
 # Normal Data and Descriptions

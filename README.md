@@ -40,7 +40,7 @@ For any questions or concerns, please contact `matthew.anderson2@inl.gov`
 
 # Normal Data and Descriptions
 ### Normal-1UE
-This dataset consists of normal internet traffic recorded on the same interfaces as the attack dataset. Specifically, it contains network traffic simulated on a single UE with various automated tasks including streaming YouTube videos, accessing 500 popular websites, downloading files via FTP, mounting a SAMBA share and downloading files from it, and having a conference call via Microsoft Teams.
+This dataset consists of normal internet traffic recorded on the network interfaces specified in the diagram above. Specifically, it contains network traffic simulated on a single UE with various automated tasks including streaming YouTube videos, accessing 500 popular websites, downloading files via FTP, mounting a SAMBA share and downloading files from it, and having a conference call via Microsoft Teams.
 
 ### Normal-2UE
 The same traffic types as in *Normal-1UE* were used for *Normal-2UE*, except this time, the traffic generation was divided between 2 UEs. 

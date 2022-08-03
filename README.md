@@ -317,5 +317,3 @@ Included with the dataset are two versions of the file used to process the data 
 Without modification, the data preparation files require **at least** 96 GB of memory and several hours to process the data. This issue can likely be overcome by changing the instances of the `sniff(...)` function to process each packet without storing packets sequentially in memory.
 
 Special thanks to Christopher Becker and Jessie Cooper.
-  
-   

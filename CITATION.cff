@@ -1,34 +1,30 @@
-cff-version:1.2.0
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: 5GAD-2022
+message: 'If you use this dataset, please cite it as below'
 type: dataset
-message: "If you use this dataset, please cite it as below."
 authors:
-- family-names: "Coldwell"
-  given-names: "Cooper"
-  orcid:  "https://orcid.org/0000-0002-6376-8047"
-- family-names: "Conger"
-  given-names: "Denver"
-  orcid:  "https://orcid.org/0000-0003-0001-0308"
-- family-names: "Goodell"
-  given-names: "Edward"
-- family-names: "Jacobson"
-  given-names: "Brendan"
-- family-names: "Petersen"
-  given-names: "Bryton"
-  orcid: "https://orcid.org/0000-0002-2242-108X"
-- family-names: "Spencer"
-  given-names: "Damon"
-- family-names: "Anderson"
-  given-names: "Matthew"
-- family-names: "Sgambati"
-  given-names: "Matthew"
-title: "5GAD-2022"
+  - given-names: Cooper
+    family-names: Coldwell
+    orcid: 'https://orcid.org/0000-0002-6376-8047'
+  - given-names: Denver
+    family-names: Conger
+    orcid: 'https://orcid.org/0000-0003-0001-0308'
+  - given-names: Edward
+    family-names: Goodell
+  - given-names: Brendan
+    family-names: Jacobson
+  - given-names: Brendan
+    family-names: Petersen
+    orcid: 'https://orcid.org/0000-0002-2242-108X'
+  - given-names: Damon
+    family-names: Spencer
+  - given-names: Matthew
+    family-names: Anderson
+  - given-names: Matthew
+    family-names: Sgambati
+url: 'https://github.com/IdahoLabResearch/5GAD/'
 version: 1.0.0
-date-released: 2022-08-3
-url: "https://github.com/IdahoLabResearch/5GAD/"
-
-
-
-
-
-
-
+date-released: '2022-08-03'

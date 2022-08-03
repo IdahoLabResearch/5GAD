@@ -45,7 +45,7 @@ This dataset consists of normal internet traffic recorded on the same interfaces
 ### Normal-2UE
 The same traffic types as in *Normal-1UE* were used for *Normal-2UE*, except this time, the traffic generation was divided between 2 UEs. 
 
-All of the packets are contained in the "total_allcap\*.pcapng;" to reduce the number of processing difficulties, we split the "total_allcap\*.pcapng" file into a sequential series of files. The order of these files is given by the number preceding the file extension. For example, "allcap_20220613162057_00010.pcapng" is the 10th file in the sequence.
+To reduce the number of processing difficulties, we split the total capture file into a sequential series of files. The order of these files is given by the number preceding the file extension. For example, "allcap_20220613162057_00010.pcapng" is the 10th file in the sequence.
 ***
 
 # Attack Data and Descriptions

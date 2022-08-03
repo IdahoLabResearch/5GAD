@@ -53,7 +53,7 @@ There are 10 attacks that we ran on our 5G test bench, most of which rely on RES
 
 The *Attacks* directory contains each of the attacks, each divided into its own subdirectory. Within each attack is a *\*.pcapng* file beginning with "Attacks_" that contains only the attack packets present in the "allcap" file. Files not beginning with "Attacks_" may contain some benign, incidental traffic.
 
-## Surveillance Attacks
+## Reconnaissance Attacks
 
 ### AMFLookingForUDM
 This attack is performed by requesting information about the unified data management (UDM) network function while impersonating an access and mobility management function (AMF). Internally this attack appears to be a benign system request and exploits the fact that the network repository function (NRF) does not check if the source of the request is actually an AMF. This attack is performed with the following Linux command:

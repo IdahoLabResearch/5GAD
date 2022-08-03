@@ -1,0 +1,33 @@
+cff-version:1.2.0
+message: "If you use this dataset, please cite it as below."
+authors:
+- family-names: "Coldwell"
+  given-names: "Cooper"
+  orcid:  https://orcid.org/0000-0002-6376-8047 
+- family-names: "Conger"
+  given-names: "Denver"
+- family-names: "Goodell"
+  given-names: "Edward"
+- family-names: "Jacobson"
+  given-names: "Brendan"
+- family-names: "Petersen"
+  given-names: "Bryton"
+  orcid: https://orcid.org/0000-0002-2242-108X
+- family-names: "Spencer"
+  given-names: "Damon"
+- family-names: "Anderson"
+  given-names: "Matthew"
+- family-names: "Sgambati"
+  given-names: "Matthew"
+title: "5GAD-2022"
+version: 1.0.0
+doi:
+date-released: 
+url: "https://github.com/idaholab/"
+type: dataset
+
+
+
+
+
+

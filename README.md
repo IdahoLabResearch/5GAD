@@ -20,8 +20,8 @@ If you use our dataset, please cite it:
 @dataset{5gad,
   title={5GAD-2022},
   author={Coldwell, Conger, Goodell, Jacobson, Petersen, Spencer, Anderson, Sgambati},
-  doi={},
-  journal={},
+  doi={10.1109/GCWkshps56602.2022.10008647},
+  journal={Coldwell, Cooper, et al. "Machine Learning 5G Attack Detection in Programmable Logic." 2022 IEEE Globecom Workshops (GC Wkshps). IEEE, 2022.},
   year={2022}
 }
 ```
@@ -30,8 +30,8 @@ If you find our paper useful, please cite it:
 @article{5g_ml_fpga,
   title={Machine Learning 5G Attack Detection in Programmable Logic},
   author={Coldwell, Conger, Goodell, Jacobson, Petersen, Spencer, Anderson, Sgambati},
-  doi={},
-  journal={},
+  doi={10.1109/GCWkshps56602.2022.10008647},
+  journal={Coldwell, Cooper, et al. "Machine Learning 5G Attack Detection in Programmable Logic." 2022 IEEE Globecom Workshops (GC Wkshps). IEEE, 2022.},
   year={2022}
 }
 ```

@@ -17,23 +17,27 @@ This dataset contains two types of intercepted network packets: "normal" network
 # Citation and Contact
 If you use our dataset, please cite it:
 ```
-@dataset{5gad,
-  title={5GAD-2022},
-  author={Coldwell, Conger, Goodell, Jacobson, Petersen, Spencer, Anderson, Sgambati},
-  doi={10.1109/GCWkshps56602.2022.10008647},
-  journal={Coldwell, Cooper, et al. "Machine Learning 5G Attack Detection in Programmable Logic." 2022 IEEE Globecom Workshops (GC Wkshps). IEEE, 2022.},
-  year={2022}
-}
+@INPROCEEDINGS{10008647,
+  author={Coldwell, Cooper and Conger, Denver and Goodell, Edward and Jacobson, Brendan and Petersen, Bryton and Spencer, Damon and Anderson, Matthew and Sgambati, Matthew},
+  booktitle={2022 IEEE Globecom Workshops (GC Wkshps)}, 
+  title={Machine Learning 5G Attack Detection in Programmable Logic}, 
+  year={2022},
+  volume={},
+  number={},
+  pages={1365-1370},
+  doi={10.11578/dc.20220811.1}}
 ```
 If you find our paper useful, please cite it:
 ```
-@article{5g_ml_fpga,
-  title={Machine Learning 5G Attack Detection in Programmable Logic},
-  author={Coldwell, Conger, Goodell, Jacobson, Petersen, Spencer, Anderson, Sgambati},
-  doi={10.1109/GCWkshps56602.2022.10008647},
-  journal={Coldwell, Cooper, et al. "Machine Learning 5G Attack Detection in Programmable Logic." 2022 IEEE Globecom Workshops (GC Wkshps). IEEE, 2022.},
-  year={2022}
-}
+@INPROCEEDINGS{10008647,
+  author={Coldwell, Cooper and Conger, Denver and Goodell, Edward and Jacobson, Brendan and Petersen, Bryton and Spencer, Damon and Anderson, Matthew and Sgambati, Matthew},
+  booktitle={2022 IEEE Globecom Workshops (GC Wkshps)}, 
+  title={Machine Learning 5G Attack Detection in Programmable Logic}, 
+  year={2022},
+  volume={},
+  number={},
+  pages={1365-1370},
+  doi={10.1109/GCWkshps56602.2022.10008647}}
 ```
 For any questions or concerns, please contact `matthew.anderson2@inl.gov`
 ***

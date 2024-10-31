@@ -2,7 +2,7 @@
 
 > This dataset was created by Cooper Coldwell, Denver Conger, Edward Goodell, Brendan Jacobson, Bryton Petersen, Damon Spencer, Matthew Anderson, and Matthew Sgambati and introduced in ***Machine Learning 5G Attack Detection in Programmable Logic***.
 
-> *** Please use git-lfs to clone this repository.  If you do not, the complete data will not be pulled.***
+*** Please use git-lfs to clone this repository.  If you do not, the complete data will not be pulled.***
 
 This dataset contains two types of intercepted network packets: "normal" network traffic packets (i.e. a variety of non-malicious traffic types) and "attack" packets from attacks against a 5G Core implemented with free5GC. The captures were collected using tshark or Wireshark on 4 different network interfaces within the 5G core. Those interfaces and where they sit within the system are outlined in the 5GNetworkDiagram figure. Files that start with "allcap" contain packets that were recorded on all four interfaces simultaneously; other \*.pcapng files represent the same data that has been broken out into one of the four interfaces.
 
